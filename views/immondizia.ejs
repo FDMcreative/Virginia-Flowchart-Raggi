@@ -8,10 +8,17 @@
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="/js/app.js" charset="utf-8"></script>
   </head>
+
   <body>
-    <h1><%= heading %></h1>
-    <p><%# paragraph %></p>
-    <button onclick="location.href = 'http://localhost:3000/raggi';">Sì</button>
-    <button onclick="location.href = 'http://localhost:3000/olimpiadi';">No</button>
+
+    <main>
+      <h1><%= heading %></h1>
+      <p><%# paragraph %></p>
+      <div id="buttons">
+        <button onclick="location.href = 'http://localhost:3000/raggi';">Sì</button>
+        <button onclick="location.href = 'http://localhost:3000/olimpiadi';">No</button>
+      </div>
+    </main>
+
   </body>
 </html>
