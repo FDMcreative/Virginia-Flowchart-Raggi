@@ -1,0 +1,25 @@
+body {
+  height: 110vh;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  vertical-align: middle;
+  font-family: sans-serif;
+  color: white;
+  background-color: black;
+}
+
+h1 {
+  display: block;
+}
+
+button {
+  display: inline-flex;
+  background-color: gold;
+  font-size: 2rem;
+}
+
+button:active {
+  background-color: goldenrod;
+}
