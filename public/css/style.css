@@ -1,5 +1,5 @@
 body {
-  height: 110vh;
+  height: 100vh;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -12,6 +12,20 @@ body {
 
 h1 {
   display: block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  vertical-align: middle;
+}
+
+#buttons {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  vertical-align: middle;
 }
 
 button {
